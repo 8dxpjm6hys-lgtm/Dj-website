@@ -1,0 +1,238 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<p class="p1">&lt;!DOCTYPE html&gt;<br>
+&lt;html lang="en"&gt;<br>
+&lt;head&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;title&gt;DJ Pulse Entertainment&lt;/title&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;<br>
+<span class="Apple-converted-space">    </span>body {<br>
+<span class="Apple-converted-space">      </span>margin: 0;<br>
+<span class="Apple-converted-space">      </span>font-family: Arial, sans-serif;<br>
+<span class="Apple-converted-space">      </span>background: #0f0f0f;<br>
+<span class="Apple-converted-space">      </span>color: #fff;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header {<br>
+<span class="Apple-converted-space">      </span>background: linear-gradient(90deg, #ff004c, #7a00ff);<br>
+<span class="Apple-converted-space">      </span>padding: 40px 20px;<br>
+<span class="Apple-converted-space">      </span>text-align: center;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header h1 {<br>
+<span class="Apple-converted-space">      </span>margin: 0;<br>
+<span class="Apple-converted-space">      </span>font-size: 42px;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header p {<br>
+<span class="Apple-converted-space">      </span>margin-top: 10px;<br>
+<span class="Apple-converted-space">      </span>font-size: 18px;<br>
+<span class="Apple-converted-space">      </span>opacity: 0.9;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav {<br>
+<span class="Apple-converted-space">      </span>display: flex;<br>
+<span class="Apple-converted-space">      </span>justify-content: center;<br>
+<span class="Apple-converted-space">      </span>background: #1a1a1a;<br>
+<span class="Apple-converted-space">      </span>padding: 10px;<br>
+<span class="Apple-converted-space">      </span>position: sticky;<br>
+<span class="Apple-converted-space">      </span>top: 0;<br>
+<span class="Apple-converted-space">      </span>z-index: 10;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav a {<br>
+<span class="Apple-converted-space">      </span>color: white;<br>
+<span class="Apple-converted-space">      </span>margin: 0 15px;<br>
+<span class="Apple-converted-space">      </span>text-decoration: none;<br>
+<span class="Apple-converted-space">      </span>font-weight: bold;<br>
+<span class="Apple-converted-space">      </span>cursor: pointer;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>nav a:hover {<br>
+<span class="Apple-converted-space">      </span>color: #ff004c;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero {<br>
+<span class="Apple-converted-space">      </span>text-align: center;<br>
+<span class="Apple-converted-space">      </span>padding: 80px 20px;<br>
+<span class="Apple-converted-space">      </span>background: url('<a href="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&amp;fit=crop&amp;w=1400&amp;q=80">https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&amp;fit=crop&amp;w=1400&amp;q=80</a>') center/cover;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hero h2 {<br>
+<span class="Apple-converted-space">      </span>font-size: 40px;<br>
+<span class="Apple-converted-space">      </span>background: rgba(0,0,0,0.6);<br>
+<span class="Apple-converted-space">      </span>display: inline-block;<br>
+<span class="Apple-converted-space">      </span>padding: 10px 20px;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section {<br>
+<span class="Apple-converted-space">      </span>padding: 50px 20px;<br>
+<span class="Apple-converted-space">      </span>text-align: center;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cards {<br>
+<span class="Apple-converted-space">      </span>display: flex;<br>
+<span class="Apple-converted-space">      </span>flex-wrap: wrap;<br>
+<span class="Apple-converted-space">      </span>justify-content: center;<br>
+<span class="Apple-converted-space">      </span>gap: 20px;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card {<br>
+<span class="Apple-converted-space">      </span>background: #1e1e1e;<br>
+<span class="Apple-converted-space">      </span>padding: 20px;<br>
+<span class="Apple-converted-space">      </span>border-radius: 10px;<br>
+<span class="Apple-converted-space">      </span>width: 250px;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact {<br>
+<span class="Apple-converted-space">      </span>background: #111;<br>
+<span class="Apple-converted-space">      </span>padding: 50px 20px;<br>
+<span class="Apple-converted-space">      </span>text-align: center;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact a {<br>
+<span class="Apple-converted-space">      </span>color: #ff004c;<br>
+<span class="Apple-converted-space">      </span>font-size: 20px;<br>
+<span class="Apple-converted-space">      </span>text-decoration: none;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer {<br>
+<span class="Apple-converted-space">      </span>background: #000;<br>
+<span class="Apple-converted-space">      </span>text-align: center;<br>
+<span class="Apple-converted-space">      </span>padding: 20px;<br>
+<span class="Apple-converted-space">      </span>font-size: 14px;<br>
+<span class="Apple-converted-space">      </span>opacity: 0.7;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>button {<br>
+<span class="Apple-converted-space">      </span>background: #ff004c;<br>
+<span class="Apple-converted-space">      </span>border: none;<br>
+<span class="Apple-converted-space">      </span>padding: 12px 20px;<br>
+<span class="Apple-converted-space">      </span>color: white;<br>
+<span class="Apple-converted-space">      </span>font-size: 16px;<br>
+<span class="Apple-converted-space">      </span>border-radius: 5px;<br>
+<span class="Apple-converted-space">      </span>cursor: pointer;<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>button:hover {<br>
+<span class="Apple-converted-space">      </span>background: #d9003f;<br>
+<span class="Apple-converted-space">    </span>}<br>
+<span class="Apple-converted-space">  </span>&lt;/style&gt;<br>
+&lt;/head&gt;</p>
+<p class="p1"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;h1&gt;DJ Pulse Entertainment&lt;/h1&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;p&gt;Lighting up your events with unforgettable sound &amp; energy&lt;/p&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;nav&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;a id="servicesBtn"&gt;Services&lt;/a&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;a id="aboutBtn"&gt;About&lt;/a&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;a id="contactBtn"&gt;Contact&lt;/a&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;/nav&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;h2&gt;Book the Perfect DJ for Your Event&lt;/h2&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="services" class="section"&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;h2&gt;Services&lt;/h2&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;div class="cards"&gt;<br>
+<span class="Apple-converted-space">      </span>&lt;div class="card"&gt;<br>
+<span class="Apple-converted-space">        </span>&lt;h3&gt;Weddings&lt;/h3&gt;<br>
+<span class="Apple-converted-space">        </span>&lt;p&gt;Professional DJ setup for your special day.&lt;/p&gt;<br>
+<span class="Apple-converted-space">      </span>&lt;/div&gt;<br>
+<span class="Apple-converted-space">      </span>&lt;div class="card"&gt;<br>
+<span class="Apple-converted-space">        </span>&lt;h3&gt;Parties&lt;/h3&gt;<br>
+<span class="Apple-converted-space">        </span>&lt;p&gt;Birthdays, graduations, and private events.&lt;/p&gt;<br>
+<span class="Apple-converted-space">      </span>&lt;/div&gt;<br>
+<span class="Apple-converted-space">      </span>&lt;div class="card"&gt;<br>
+<span class="Apple-converted-space">        </span>&lt;h3&gt;Clubs &amp; Events&lt;/h3&gt;<br>
+<span class="Apple-converted-space">        </span>&lt;p&gt;High-energy mixes and live performance DJing.&lt;/p&gt;<br>
+<span class="Apple-converted-space">      </span>&lt;/div&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;/div&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="about" class="section"&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;h2&gt;About&lt;/h2&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;p&gt;<br>
+<span class="Apple-converted-space">      </span>My name is Ryan W. I am an entrepreneur who created my own business with the help of my good friend Lucas A.<br>
+<span class="Apple-converted-space">    </span>&lt;/p&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="contact" class="contact"&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;h2&gt;Contact &amp; Booking&lt;/h2&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;p&gt;Call or text to book your event:&lt;/p&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;a href="<a href="tel:+12766969035">tel:+12766969035</a>"&gt;+1 (276) 696-9035&lt;/a&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;br&gt;&lt;br&gt;<br>
+<span class="Apple-converted-space">    </span>&lt;button onclick="alert('Thanks for your interest! Please call the number to book.')"&gt;<br>
+<span class="Apple-converted-space">      </span>Book Now<br>
+<span class="Apple-converted-space">    </span>&lt;/button&gt;<br>
+<span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;<br>
+<span class="Apple-converted-space">    </span>© 2026 DJ Pulse Entertainment. All rights reserved.<br>
+<span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;<br>
+<span class="Apple-converted-space">    </span>function smoothScrollTo(element) {<br>
+<span class="Apple-converted-space">      </span>const targetPosition = element.offsetTop;<br>
+<span class="Apple-converted-space">      </span>const startPosition = window.pageYOffset;<br>
+<span class="Apple-converted-space">      </span>const distance = targetPosition - startPosition;<br>
+<span class="Apple-converted-space">      </span>const duration = 900;<br>
+<span class="Apple-converted-space">      </span>let startTime = null;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>function animation(currentTime) {<br>
+<span class="Apple-converted-space">        </span>if (startTime === null) startTime = currentTime;<br>
+<span class="Apple-converted-space">        </span>const timeElapsed = currentTime - startTime;</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const run = ease(timeElapsed, startPosition, distance, duration);<br>
+<span class="Apple-converted-space">        </span>window.scrollTo(0, run);</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (timeElapsed &lt; duration) requestAnimationFrame(animation);<br>
+<span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>function ease(t, b, c, d) {<br>
+<span class="Apple-converted-space">        </span>t /= d / 2;<br>
+<span class="Apple-converted-space">        </span>if (t &lt; 1) return c / 2 * t * t + b;<br>
+<span class="Apple-converted-space">        </span>t--;<br>
+<span class="Apple-converted-space">        </span>return -c / 2 * (t * (t - 2) - 1) + b;<br>
+<span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>requestAnimationFrame(animation);<br>
+<span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const servicesBtn = document.getElementById("servicesBtn");<br>
+<span class="Apple-converted-space">    </span>const aboutBtn = document.getElementById("aboutBtn");<br>
+<span class="Apple-converted-space">    </span>const contactBtn = document.getElementById("contactBtn");</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const servicesSection = document.getElementById("services");<br>
+<span class="Apple-converted-space">    </span>const aboutSection = document.getElementById("about");<br>
+<span class="Apple-converted-space">    </span>const contactSection = document.getElementById("contact");</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>servicesBtn.addEventListener("click", () =&gt; {<br>
+<span class="Apple-converted-space">      </span>smoothScrollTo(servicesSection);<br>
+<span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>aboutBtn.addEventListener("click", () =&gt; {<br>
+<span class="Apple-converted-space">      </span>smoothScrollTo(aboutSection);<br>
+<span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>contactBtn.addEventListener("click", () =&gt; {<br>
+<span class="Apple-converted-space">      </span>smoothScrollTo(contactSection);<br>
+<span class="Apple-converted-space">    </span>});<br>
+<span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p1">&lt;/body&gt;<br>
+&lt;/html&gt;</p>
+
+</body>
+</html>
